@@ -3,27 +3,33 @@
     margin: 0;
 }
 
-.big-box {}
+.big-box {
+    height: 100px;
+
+
+}
 
 .inner-box {
-
-
-
+    height: 100px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gray;
+    align-items: center;
+
 }
 
-.left,
-.right {}
+.right {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 30px;
+}
 
-.left span {
-    font-size: 40px;
-    font-weight: bold;
+.right a {
+    text-decoration: none;
+    font-size: 20px;
+
 
 }
 
@@ -33,21 +39,17 @@
     gap: 20px;
 }
 
+.left span {
+    font-size: 30px;
+}
+
 .left h1 {
-    font-weight: 100;
+    font-weight: 30;
 }
 
-.right button {
+.right .home {
     background-color: blue;
-    border: none;
-    color: aliceblue;
-
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
 }
